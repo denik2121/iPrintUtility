@@ -99,7 +99,7 @@ namespace iPrintUtility
                         {
                             DevicesComboBox.Items.Add(device);
 
-                            if (deviceToSelect == null && device.LocalDevice.Name.Contains("GB01"))
+                            if (deviceToSelect == null && device.LocalDevice.Name.Contains("YHK-4518"))
                                 deviceToSelect = device;
                         }
                     }
